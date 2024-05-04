@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Resume</title>
+    <link rel="shortcut icon" href="/img/graphs.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/fontawesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/dashboard.css" />
+    <style>
+      .resume {
+        display: flex;
+        max-width: 1200px;
+        margin: auto;
+      }
+      .left-side {
+        flex: 1;
+        padding: 20px;
+        background-color: #f8f9fa;
+      }
+      .right-side {
+        flex: 2;
+        padding: 20px;
+      }
+      .contact,
+      .languages {
+        margin-bottom: -10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="resume bg-light h-100">
+      <div class="left-side bg-primary text-light">
+        <img
+          src="/img/test.jpg"
+          alt="Profile Picture"
+          class="w-50 mb-3 rounded-circle"
+        />
+        <div class="">
+          <h3 class="contact">Contact</h3>
+          <hr class="text-light border-2 w-75" />
+          <p class="">john.doe@example.com</p>
+          <p>Lagos, Nigeria</p>
+          <p>(123) 456-7890</p>
+          <!-- More contact info here -->
+        </div>
+        <div class="">
+          <h3 class="languages">Languages</h3>
+          <hr class="text-light border-2 w-75" />
+          <p>English</p>
+          <p>Spanish</p>
+          <!-- More languages here -->
+        </div>
+        <!-- Skills Section -->
+        <div class="resume-section">
+          <h2>Skills</h2>
+          <p>HTML5</p>
+          <p>CSS</p>
+          <p>JavaScript</p>
+          <!-- More skills here -->
+        </div>
+      </div>
+      <div class="right-side">
+        <!-- About Section -->
+        <div class="mb-4">
+          <h1 class="fs-1">John Doe</h1>
+          <hr class="text-dark border-2 w-75" />
+          <p class="text-muted fs-3">Software Engineer</p>
+          <h2>About Me</h2>
+          <p>
+            I am a passionate web developer with a knack for creating elegant
+            solutions in the least amount of time. Developed an e-commerce
+            website that processed over 1000 orders a day.
+          </p>
+          <!-- More about info here -->
+        </div>
+        <!-- Other sections like Experience, Education, Skills, etc. -->
+        <!-- Experience Section -->
+        <div class="resume-section">
+          <h2>Experience</h2>
+          <div class="job">
+            <h5>Senior Web Developer</h5>
+            <p>Company name - Location</p>
+            <p>January 2020 - Present</p>
+            <p>
+              Lead the development of a high-traffic e-commerce platform,
+              increasing sales by 200%.
+            </p>
+
+            <!-- More experiences here -->
+          </div>
+          <!-- More job entries here -->
+        </div>
+
+        <!-- Education Section -->
+        <div class="resume-section">
+          <h2>Education</h2>
+          <div class="education-entry">
+            <h3>Bachelor of Science in Computer Science - University Name</h3>
+            <p>September 2015 - May 2019</p>
+            <ul>
+              <li>Graduated with Honors (GPA: 3.8/4.0)</li>
+              <li>
+                Relevant coursework: Data Structures, Web Development, Database
+                Management
+              </li>
+              <!-- More education details here -->
+            </ul>
+          </div>
+          <!-- More education entries here -->
+        </div>
+
+        <!-- Certifications Section -->
+        <div class="resume-section">
+          <h2>Certifications</h2>
+          <ul>
+            <li>Certified JavaScript Developer - Certification Body, 2021</li>
+            <li>Professional Scrum Master (PSM I) - Scrum.org, 2020</li>
+            <!-- More certifications here -->
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
