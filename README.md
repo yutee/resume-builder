@@ -2,7 +2,7 @@
 
 ## Setup:
 
-> Install node_modules
+> ------- Install App Dependencies -------------
 
 ```
 npm install
@@ -13,7 +13,7 @@ npm install
 
 ---
 
-> Compile SASS
+> ------------- Compile SASS to CSS -------------
 
 ```
 npm run sass:build
@@ -26,3 +26,5 @@ or
 npm run sass:watch
 
 ```
+
+`npm run sass:watch`: Automatically compiles your `scss` file when a change is made
