@@ -1,0 +1,25 @@
+body {
+    padding-top: 8em;
+}
+
+.title-color {
+    color: #10bcee;
+}
+
+.title-center {
+    text-align: center;
+}
+
+.contributors {
+ margin: 2em 0;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #10bcee;
+    border: #10bcee;
+}
+
+.btn-primary:hover {
+    opacity: .5;
+}
